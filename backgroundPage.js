@@ -1,3 +1,4 @@
+chrome.storage.sync.set({ 'toggleOff':true });
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
     if (request.todo == "showPageAction")
     {
