@@ -1,4 +1,3 @@
-console.log( 'This is github: background' );
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
     if (request.todo == "showPageAction")
     {
