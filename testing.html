@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Extention Testing </title>
+</head>
+<style>
+    body{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height:100vh;
+        width: 100vw;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid black; */
+    }
+    #one { 
+        height:40vh;
+        width: 80vw;
+    }
+    #two {
+        height:20vh;
+        width: 40vw;
+    }
+</style>
+<body>
+    outside
+    <div class='container' id="one">
+        inside
+        <div class='container' id="two">
+            inside
+        </div>
+    </div>
+</body>
+</html>
